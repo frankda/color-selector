@@ -1,0 +1,55 @@
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  i {
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    color: grey;
+    cursor: pointer;
+  }
+}
+
+.notification {
+  width: 60%;
+  background-color: lightcoral;
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  z-index: 100;
+  border: 1px solid black;
+
+  &-enter {
+    opacity: 0;
+    transform: rotate3d(1, 0 , 0, 90deg);
+    &-active {
+      transform: rotate3d(1, 0 , 0, 0deg);
+      opacity: 1;
+      transition: all 500ms;
+    }
+  }
+
+  &-exit {
+    opacity: 1;
+    transform: rotate3d(1, 0 , 0, 0deg);
+    &-active {
+      transform: rotate3d(1, 0 , 0, 90deg);
+      opacity: 0;
+      transition: all 500ms;
+    }
+  }
+}
