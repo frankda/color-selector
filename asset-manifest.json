@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "//frankda.github.io/color-selector/static/css/main.5f971f9f.chunk.css",
+    "main.js": "//frankda.github.io/color-selector/static/js/main.77f7eb4b.chunk.js",
+    "main.js.map": "//frankda.github.io/color-selector/static/js/main.77f7eb4b.chunk.js.map",
+    "runtime-main.js": "//frankda.github.io/color-selector/static/js/runtime-main.4a880bc1.js",
+    "runtime-main.js.map": "//frankda.github.io/color-selector/static/js/runtime-main.4a880bc1.js.map",
+    "static/js/2.54a04833.chunk.js": "//frankda.github.io/color-selector/static/js/2.54a04833.chunk.js",
+    "static/js/2.54a04833.chunk.js.map": "//frankda.github.io/color-selector/static/js/2.54a04833.chunk.js.map",
+    "index.html": "//frankda.github.io/color-selector/index.html",
+    "precache-manifest.6c5ce729c55b9c5c152c08d0a89b9c9b.js": "//frankda.github.io/color-selector/precache-manifest.6c5ce729c55b9c5c152c08d0a89b9c9b.js",
+    "service-worker.js": "//frankda.github.io/color-selector/service-worker.js",
+    "static/css/main.5f971f9f.chunk.css.map": "//frankda.github.io/color-selector/static/css/main.5f971f9f.chunk.css.map",
+    "static/js/2.54a04833.chunk.js.LICENSE.txt": "//frankda.github.io/color-selector/static/js/2.54a04833.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a880bc1.js",
+    "static/js/2.54a04833.chunk.js",
+    "static/css/main.5f971f9f.chunk.css",
+    "static/js/main.77f7eb4b.chunk.js"
+  ]
+}
